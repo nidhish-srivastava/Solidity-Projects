@@ -1,4 +1,4 @@
-// Buy chai for the owner by giving some ether
+// A contract where the user can transfer ether to the owner of the contract(which is buying a chai for owner) and see all the transactions as well
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
