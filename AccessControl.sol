@@ -6,6 +6,7 @@ contract AccessControl {
 
     event GrantRole(bytes32 indexed roles,address indexed account);
     event RevokeRole(bytes32 indexed roles,address indexed account);
+    
     mapping (bytes32=> mapping (address=>bool)) public roles;
 // use public(to get the hash of admin and user),then again making it private
     bytes32 private constant ADMIN = keccak256(abi.encodePacked("ADMIN"));
